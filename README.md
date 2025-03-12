@@ -16,7 +16,8 @@ The app features playful, animated icons representing different noodle types, wh
 
 ### Frontend
 
-- React: A JavaScript library used to build the user interface. React helps in creating a dynamic and interactive experience with reusable components.
+- React: A JavaScript library used to build the user interface.
+- Next.js: A React framework that provides server-side rendering, static site generation, and simplified routing.
 
 ### Styling
 
