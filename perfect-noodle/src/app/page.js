@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 export default function Home() {
   const router = useRouter();
 
-  // 这会在实际应用中连接到你的数据
   const noodleTypes = [
     {
       id: "nissin-cup",
@@ -58,7 +57,7 @@ export default function Home() {
 
         {/* 分隔线 */}
         <div className="w-full flex justify-center my-6">
-          <div className="border-t-2 border-dashed border-brown-700 w-4/5"></div>
+          <div className="border-t-4 border-dashed border-[#5A3921] w-4/5"></div>
         </div>
 
         {/* 选择提示 */}
@@ -99,15 +98,15 @@ export default function Home() {
         </div>
 
         {/* 分隔线 */}
-        <div className="w-full flex justify-center mt-auto mb-4">
-          <div className="border-t-2 border-dashed border-brown-700 w-4/5"></div>
+        <div className="w-full flex justify-center mt-6 mb-12">
+          <div className="border-t-4 border-dashed border-[#5A3921] w-4/5"></div>
         </div>
 
         {/* 底部提示 */}
-        <p className="text-center text-[#5A3921] font-bubblegum text-lg">
+        <p className="text-center text-[#5A3921] font-bubblegum text-xl -mt-6">
           Click on a ramen to start timing!
         </p>
-        <p className="text-center text-yellow-500 font-bubblegum mt-2">
+        <p className="text-center text-yellow-500 font-bubblegum mt-2 text-lg">
           Perfect noodles await! ✨
         </p>
       </div>
